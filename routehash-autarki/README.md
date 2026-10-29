@@ -6,7 +6,7 @@
 
 No platform. Just the sale.
 
-Autarki is the wallet and the Nostr shop on the Umbrel you already run. That Umbrel can be an AMD or Intel machine, an Umbrel Home, an Umbrel Pro, or a Raspberry Pi, on umbrelOS 1.x or umbrelOS 2.0. This listing is version 0.1.10. A wallet from 0.1.9 stays. A PC, Umbrel Home, and Umbrel Pro use the amd64 program. A Raspberry Pi uses the arm64 program. A merchant builds the order on the page. Use it as an in-person point of sale, or set the shop to Online and take the order over Nostr. The same page hires a listed rig, posts a classified, and an online order can be shipped. The words, the shop book, and the sale stay on that Umbrel.
+Autarki is the wallet and the Nostr shop on the Umbrel you already run. That Umbrel can be an AMD or Intel machine, an Umbrel Home, an Umbrel Pro, or a Raspberry Pi, on umbrelOS 1.x or umbrelOS 2.0. This listing is version 0.1.11. A wallet from 0.1.10 stays. A PC, Umbrel Home, and Umbrel Pro use the amd64 program. A Raspberry Pi uses the arm64 program. A merchant builds the order on the page. Use it as an in-person point of sale, or set the shop to Online and take the order over Nostr. The same page hires a listed rig, posts a classified, and an online order can be shipped. The words, the shop book, and the sale stay on that Umbrel.
 
 The name in the RouteHash app store is **Autarki - Wallet / Nostr Shop**.
 
@@ -38,7 +38,7 @@ An online shop asks Ship or Pick up before the order is sent. There is no defaul
 
 Each open order shows Ordered by and a short public name. On a customer wallet, Balance keeps See open orders and opens Shop. On the shop's wallet, an order that is still open opens Ledger, then Check Outs.
 
-The stall card shows the shop's short public name, the day the stall note was signed, and the payment codes. It shows how many shipments this wallet has marked received, and how many are still unfinished.
+The stall card shows the shop's short public name, the day the stall note was signed, and the payment codes. It shows how many shipments this wallet has marked received, and how many are still unfinished. After a completed shipment, the stall can show how many receipts both keys signed. Pick up on a classified offers Pay with XBT and Pay with BTC, with Lightning under the chain you press. Ship offers XBT Lightning and BTC Lightning. On-chain is not offered for a shipment. A Discord username can be shown beside the shop. The shop and the classified stay public. The link is not required to buy or sell. The customer ledger names the order, the store, and the store owner. The coin download includes the product, the store, the date, and the charges on that order.
 
 A name on a post or an order is the display name that person published, or their name when they published no display name. A click copies the public name. A missing profile leaves the short public name. That name is what they wrote. It is not a checked website name. Kind 0 is a profile. A whitelist that should show a name also allows kind 0.
 
@@ -48,7 +48,7 @@ Classifieds stays hidden until you turn on Enable Classifieds under Settings. A 
 
 The categories are Goods, Services, Jobs, Rentals, Giveaways, and Personals. Goods, a service, and a rental ask for a price. A job asks Offer or Hire. A giveaway and a personal do not ask for a price. An ad can carry up to four image addresses. A map link is an https address from OpenStreetMap, Google Maps, or Apple Maps. What is a map link? tells you to copy that address and paste it into Map. Use my location copies the shop's saved country, province or state, city, neighbourhood, and map link. It does not open that explanation.
 
-Classifieds use their own node list. Kind 30402 is the classified. The stall and the products stay kinds 30017 and 30018. The nodes that receive an order are kind 10050. The private order is kind 1059. The order is a private note. The node that carries it cannot read it. If Shop or Classifieds comes back empty, check the node. If it allows every kind, leave it that way. If it only allows some kinds, allow 30402, 30017, 30018, 10050, and 1059.
+Classifieds use their own node list. Kind 30402 is the classified. The stall and the products stay kinds 30017 and 30018. The nodes that receive an order are kind 10050. The private order is kind 1059. The order is a private note. The node that carries it cannot read it. If Shop or Classifieds comes back empty, check the node. If it allows every kind, leave it that way. If it only allows some kinds, allow 30402, 30017, 30018, 10050, and 1059. A whitelist that should check the receipt count also allows 38383 and 38384. A whitelist that should show the Discord link also allows 10011. My Ads, beside Post, shows the ads saved on this computer. Edit is on your own classified card. One buyer and one listing stay one unpaid order. With the store off, a classified sale still shows on Check Outs until it is paid, and on Sales after that.
 
 A price line reads Price in sats, then an approximate dollar amount, then now at market price. The word price opens the Neoxa market for BTCB2 and USDC:
 
@@ -79,9 +79,9 @@ https://github.com/RouteHash-com/umbrel-store
 4. Open **RouteHash app store**.
 5. Under **Bitcoin**, install **Autarki - Wallet / Nostr Shop**.
 
-If the store still shows 0.1.9, remove this community store and add the same address again. Do the same when Autarki is missing from the list, or when an install fails after you update to umbrelOS 2.0, so Umbrel downloads the current list.
+If the store still shows 0.1.10, remove this community store and add the same address again. Do the same when Autarki is missing from the list, or when an install fails after you update to umbrelOS 2.0, so Umbrel downloads the current list.
 
-This listing is version 0.1.10. Umbrel uses that version to offer the update. A wallet from 0.1.9 stays.
+This listing is version 0.1.11. Umbrel uses that version to offer the update. A wallet from 0.1.10 stays.
 
 Umbrel opens the page on port **8473**. The program listens on port **4173** inside the app.
 
@@ -112,8 +112,8 @@ Each line ends in `OK` when that file matches. A partial download does not.
 
 | Program | SHA-256 |
 | --- | --- |
-| `bin/autarki-amd64` | `c9e83a04d188d83fb409d5d99aa54814addb6a6fe4c0425c46c2b8f58b35a72c` |
-| `bin/autarki-arm64` | `a262bd50f810e0d2b999cf58c221210880cee6f7a867f98cf9ae4550bf626066` |
+| `bin/autarki-amd64` | `e8dba9a61f63f05d4f0a2eb8f576c4e148c7b8f1570448427073a54c57aaff34` |
+| `bin/autarki-arm64` | `46a8932d4071cccf04256b72649df839539d5b1f536d5a2802727a0740a08f4c` |
 
 ## First sale
 
