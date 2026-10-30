@@ -6,7 +6,7 @@
 
 No platform. Just the sale.
 
-Autarki is the wallet and the Nostr shop on the Umbrel you already run. That Umbrel can be an AMD or Intel machine, an Umbrel Home, an Umbrel Pro, or a Raspberry Pi, on umbrelOS 1.x or umbrelOS 2.0. This listing is version 0.1.11. A wallet from 0.1.10 stays. A PC, Umbrel Home, and Umbrel Pro use the amd64 program. A Raspberry Pi uses the arm64 program. A merchant builds the order on the page. Use it as an in-person point of sale, or set the shop to Online and take the order over Nostr. The same page hires a listed rig, posts a classified, and an online order can be shipped. The words, the shop book, and the sale stay on that Umbrel.
+Autarki is the wallet and the Nostr shop on the Umbrel you already run. That Umbrel can be an AMD or Intel machine, an Umbrel Home, an Umbrel Pro, or a Raspberry Pi, on umbrelOS 1.x or umbrelOS 2.0. This listing is version 0.1.12. A wallet from 0.1.11 stays. A PC, Umbrel Home, and Umbrel Pro use the amd64 program. A Raspberry Pi uses the arm64 program. A merchant builds the order on the page. Use it as an in-person point of sale, or set the shop to Online and take the order over Nostr. The same page hires a listed rig, posts a classified, and an online order can be shipped. The words, the shop book, and the sale stay on that Umbrel.
 
 The name in the RouteHash app store is **Autarki - Wallet / Nostr Shop**.
 
@@ -20,7 +20,9 @@ This store is the RouteHash community store. It is not the official Umbrel App S
 
 One page: Shop, Receive, Send, Balance, Ledger, Store, Mining, Classifieds, and Settings. Settings is the gear on the first row. Classifieds stays hidden until you turn on Enable Classifieds under Settings. Search sits to the left of the keyword. Post and Check for orders are icons on the same row as Show Ignored and View blocked. Opening Post hides the ads. A classified ad and a store listing use the same Nostr account. Each connected coin node gets a silent-payment code. The buyer pay card names the chain in the center. Mining stays hidden until you save a RouteHash account under Settings. Open Mining Invoices on Balance follows that same account.
 
-The first screen creates the wallet. Write the 24 words on paper before you leave that screen. A password for this copy is optional. Leave it blank and the 24 words stay in the clear, so a backup of this app is then the seed. A native SegWit phrase can be imported on that same screen. After that import you can set a password, or leave the copy unlocked.
+The first screen creates the wallet. Write the 24 words on paper before you leave that screen. A password for this copy is optional. Leave both password fields blank and the 24 words are stored unencrypted on this device. A backup of this service is then the seed. Restore the 24 words is on that same screen. It shows the first XBT address and does not show the words again. A shorter phrase uses Import a BIP39 phrase. A native SegWit phrase can be imported on that same screen. After that import you can set a password, or leave the copy unlocked.
+
+Settings, then Nostr Node, then A copy of the shop, saves the catalog, the orders, the coin journal, and the classifieds to a file on this computer or a drive. Bring a copy back replaces that book. The file leaves out the 24 words, the wallet file, a secret key, a macaroon, and a node password. The Lightning channel stays on the Lightning node. The stall, each product, and each classified are already notes on the Nostr node. Anyone can read those notes. This wallet does not send the shop book to that shared node. A shop that runs its own Nostr node keeps those public notes on that machine. Autarki's node is the shared board until then.
 
 The shop opens as a point of sale. A guest at the counter uses Pay Counter, and the clerk ticket shows the last four characters of the order. Set the shop to Online when the sale is not at the counter. Online hides Pay Counter and that ticket. Publish announces the choice. Until you publish, customers still see the counter.
 
@@ -79,9 +81,9 @@ https://github.com/RouteHash-com/umbrel-store
 4. Open **RouteHash app store**.
 5. Under **Bitcoin**, install **Autarki - Wallet / Nostr Shop**.
 
-If the store still shows 0.1.10, remove this community store and add the same address again. Do the same when Autarki is missing from the list, or when an install fails after you update to umbrelOS 2.0, so Umbrel downloads the current list.
+If the store still shows 0.1.11, remove this community store and add the same address again. Do the same when Autarki is missing from the list, or when an install fails after you update to umbrelOS 2.0, so Umbrel downloads the current list.
 
-This listing is version 0.1.11. Umbrel uses that version to offer the update. A wallet from 0.1.10 stays.
+This listing is version 0.1.12. Umbrel uses that version to offer the update. A wallet from 0.1.11 stays.
 
 Umbrel opens the page on port **8473**. The program listens on port **4173** inside the app.
 
@@ -112,8 +114,8 @@ Each line ends in `OK` when that file matches. A partial download does not.
 
 | Program | SHA-256 |
 | --- | --- |
-| `bin/autarki-amd64` | `e8dba9a61f63f05d4f0a2eb8f576c4e148c7b8f1570448427073a54c57aaff34` |
-| `bin/autarki-arm64` | `46a8932d4071cccf04256b72649df839539d5b1f536d5a2802727a0740a08f4c` |
+| `bin/autarki-amd64` | `b72e326e5610b66be4a0e76f19647b36ad02e39fd80c404fde09c2c64b574a04` |
+| `bin/autarki-arm64` | `4a2cf899cda76f1c1a5145a5dc0338173b725917d3237e1f139deccdf696d751` |
 
 ## First sale
 
