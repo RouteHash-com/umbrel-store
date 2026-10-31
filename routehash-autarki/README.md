@@ -6,7 +6,7 @@
 
 No platform. Just the sale.
 
-Autarki is the wallet and the Nostr shop on the Umbrel you already run. That Umbrel can be an AMD or Intel machine, an Umbrel Home, an Umbrel Pro, or a Raspberry Pi, on umbrelOS 1.x or umbrelOS 2.0. This listing is version 0.1.13. A wallet from 0.1.12 stays. A PC, Umbrel Home, and Umbrel Pro use the amd64 program. A Raspberry Pi uses the arm64 program. A merchant builds the order on the page. Use it as an in-person point of sale, or set the shop to Online and take the order over Nostr. The same page hires a listed rig, posts a classified, and an online order can be shipped. The words, the shop book, and the sale stay on that Umbrel.
+Autarki is the wallet and the Nostr shop on the Umbrel you already run. That Umbrel can be an AMD or Intel machine, an Umbrel Home, an Umbrel Pro, or a Raspberry Pi, on umbrelOS 1.x or umbrelOS 2.0. This listing is version 0.1.14. A wallet from 0.1.13 stays. A PC, Umbrel Home, and Umbrel Pro use the amd64 program. A Raspberry Pi uses the arm64 program. A merchant builds the order on the page. Use it as an in-person point of sale, or set the shop to Online and take the order over Nostr. The same page hires a listed rig, posts a classified, and an online order can be shipped. The words, the shop book, and the sale stay on that Umbrel.
 
 The name in the RouteHash app store is **Autarki - Wallet / Nostr Shop**.
 
@@ -18,7 +18,7 @@ This store is the RouteHash community store. It is not the official Umbrel App S
 
 ## What you get
 
-One page: Shop, Receive, Send, Balance, Ledger, Store, Mining, Classifieds, and Settings. Settings is the gear on the first row. Classifieds stays hidden until you turn on Enable Classifieds under Settings. Search sits to the left of the keyword. Post and Check for orders are icons on the same row as Show Ignored and View blocked. Opening Post hides the ads. A classified ad and a store listing use the same Nostr account. Each connected coin node gets a silent-payment code. The buyer pay card names the chain in the center. Mining stays hidden until you save a RouteHash account under Settings. Open Mining Invoices on Balance follows that same account.
+One page: Shop, Receive, Send, Balance, Ledger, Store, Mining, Classifieds, and Settings. Settings is the gear on the first row. Classifieds stays hidden until you turn on Enable Classifieds under Settings. Search sits to the left of the keyword. Post and Check for orders are icons on the same row as Show Ignored and View blocked. Opening Post hides the ads. A classified ad and a store listing use the same Nostr account. Each connected coin node gets a silent-payment code. The buyer pay card names the chain in the center. The Mining tab is on this page once this wallet is open. Paste the API token on Mining, or under Settings. Before that account is saved, Balance says to hire a rig, and the rewards come back to this wallet. After it is saved, Balance lists Open Mining Invoices.
 
 The first screen creates the wallet. Write the 24 words on paper before you leave that screen. A password for this copy is optional. Leave both password fields blank and the 24 words are stored unencrypted on this device. A backup of this service is then the seed. Restore the 24 words is on that same screen. It shows the first XBT address and does not show the words again. A shorter phrase uses Import a BIP39 phrase. A native SegWit phrase can be imported on that same screen. After that import you can set a password, or leave the copy unlocked.
 
@@ -58,7 +58,7 @@ https://neoxa.exchange/trade/BTCB2_USDC
 
 ## Hire a listed rig
 
-Save a RouteHash account under Settings. The account is the one on https://routehash.com. That account unlocks Mining. Hire a listed Blake2b rig with XBT, or a listed SHA-256 rig with BTC.
+Open a RouteHash account at https://routehash.com. Paste that account's API token on Mining, or under Settings. That account shows the Mine cards. Hire a listed Blake2b rig with XBT, or a listed SHA-256 rig with BTC.
 
 Mine writes a Lightning invoice for accepted shares and waits until you click Pay. Paying it starts that rig only. The button says Pay to start on the first invoice, and Pay to keep on a later invoice for a rig that is already hashing. Add Hash puts another rig on the same card. Blake2b is one card. SHA-256 is the other card.
 
@@ -66,7 +66,7 @@ Hours from balance uses the confirmed balance on that account for the rig's mini
 
 The card shows the work still paid for. The countdown starts when the rig is hashing. Before payment the card shows the time you bought. The payout address is on the card while a hire is running or waiting for payment. You can remove a hire that is still waiting, or stop one that is hashing.
 
-Balance lists Open Shop Orders. Once the RouteHash account is saved, it also lists Open Mining Invoices for a hire that is running or waiting for payment.
+Balance lists Open Shop Orders. Before the RouteHash account is saved, it says to hire a rig, and the rewards come back to this wallet. Once that account is saved, it lists Open Mining Invoices for a hire that is running or waiting for payment.
 
 ## Install
 
@@ -81,9 +81,9 @@ https://github.com/RouteHash-com/umbrel-store
 4. Open **RouteHash app store**.
 5. Under **Bitcoin**, install **Autarki - Wallet / Nostr Shop**.
 
-If the store still shows 0.1.12, remove this community store and add the same address again. Do the same when Autarki is missing from the list, or when an install fails after you update to umbrelOS 2.0, so Umbrel downloads the current list.
+If the store still shows 0.1.13, remove this community store and add the same address again. Do the same when Autarki is missing from the list, or when an install fails after you update to umbrelOS 2.0, so Umbrel downloads the current list.
 
-This listing is version 0.1.13. Umbrel uses that version to offer the update. A wallet from 0.1.12 stays.
+This listing is version 0.1.14. Umbrel uses that version to offer the update. A wallet from 0.1.13 stays.
 
 Umbrel opens the page on port **8473**. The program listens on port **4173** inside the app.
 
@@ -114,8 +114,8 @@ Each line ends in `OK` when that file matches. A partial download does not.
 
 | Program | SHA-256 |
 | --- | --- |
-| `bin/autarki-amd64` | `1de0cee4e60048a54f6b620f727577d74231899b17dc5366e61995296267c1ed` |
-| `bin/autarki-arm64` | `0085d77e525d572f3b95f745edc9b0e173233aaf6966311f21c236062a389953` |
+| `bin/autarki-amd64` | `72adccdd831edd981bb4488ff963536d308cfc4bd987e77c1751b62406be828b` |
+| `bin/autarki-arm64` | `ebb05ef96f081aeabc7c2f585722b394a37a7fe86d10790df143f281d3ca7602` |
 
 ## First sale
 
