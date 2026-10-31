@@ -6,7 +6,7 @@
 
 No platform. Just the sale.
 
-Autarki is the wallet and the Nostr shop on the Umbrel you already run. That Umbrel can be an AMD or Intel machine, an Umbrel Home, an Umbrel Pro, or a Raspberry Pi, on umbrelOS 1.x or umbrelOS 2.0. This listing is version 0.1.12. A wallet from 0.1.11 stays. A PC, Umbrel Home, and Umbrel Pro use the amd64 program. A Raspberry Pi uses the arm64 program. A merchant builds the order on the page. Use it as an in-person point of sale, or set the shop to Online and take the order over Nostr. The same page hires a listed rig, posts a classified, and an online order can be shipped. The words, the shop book, and the sale stay on that Umbrel.
+Autarki is the wallet and the Nostr shop on the Umbrel you already run. That Umbrel can be an AMD or Intel machine, an Umbrel Home, an Umbrel Pro, or a Raspberry Pi, on umbrelOS 1.x or umbrelOS 2.0. This listing is version 0.1.13. A wallet from 0.1.12 stays. A PC, Umbrel Home, and Umbrel Pro use the amd64 program. A Raspberry Pi uses the arm64 program. A merchant builds the order on the page. Use it as an in-person point of sale, or set the shop to Online and take the order over Nostr. The same page hires a listed rig, posts a classified, and an online order can be shipped. The words, the shop book, and the sale stay on that Umbrel.
 
 The name in the RouteHash app store is **Autarki - Wallet / Nostr Shop**.
 
@@ -40,7 +40,7 @@ An online shop asks Ship or Pick up before the order is sent. There is no defaul
 
 Each open order shows Ordered by and a short public name. On a customer wallet, Balance keeps See open orders and opens Shop. On the shop's wallet, an order that is still open opens Ledger, then Check Outs.
 
-The stall card shows the shop's short public name, the day the stall note was signed, and the payment codes. It shows how many shipments this wallet has marked received, and how many are still unfinished. After a completed shipment, the stall can show how many receipts both keys signed. Pick up on a classified offers Pay with XBT and Pay with BTC, with Lightning under the chain you press. Ship offers XBT Lightning and BTC Lightning. On-chain is not offered for a shipment. A Discord username can be shown beside the shop. The shop and the classified stay public. The link is not required to buy or sell. The customer ledger names the order, the store, and the store owner. The coin download includes the product, the store, the date, and the charges on that order.
+The stall card shows the shop's short public name, the day the stall note was signed, and the payment codes. It shows how many shipments this wallet has marked received, and how many are still unfinished. After a completed shipment, the stall can show how many receipts both keys signed. Pick up on a classified offers Pay with XBT, Pay with BTC, and Pay with XBTC. Lightning sits under XBT and under BTC. Pay with XBTC is there when the XBTC node on this wallet is active and the ad published an XBTC account. It has no Lightning button. Ship offers XBT Lightning and BTC Lightning. On-chain is not offered for a shipment, and a shipment does not offer XBTC. A Discord username can be shown beside the shop. The shop and the classified stay public. The link is not required to buy or sell. The customer ledger names the order, the store, and the store owner. The coin download includes the product, the store, the date, and the charges on that order.
 
 A name on a post or an order is the display name that person published, or their name when they published no display name. A click copies the public name. A missing profile leaves the short public name. That name is what they wrote. It is not a checked website name. Kind 0 is a profile. A whitelist that should show a name also allows kind 0.
 
@@ -81,9 +81,9 @@ https://github.com/RouteHash-com/umbrel-store
 4. Open **RouteHash app store**.
 5. Under **Bitcoin**, install **Autarki - Wallet / Nostr Shop**.
 
-If the store still shows 0.1.11, remove this community store and add the same address again. Do the same when Autarki is missing from the list, or when an install fails after you update to umbrelOS 2.0, so Umbrel downloads the current list.
+If the store still shows 0.1.12, remove this community store and add the same address again. Do the same when Autarki is missing from the list, or when an install fails after you update to umbrelOS 2.0, so Umbrel downloads the current list.
 
-This listing is version 0.1.12. Umbrel uses that version to offer the update. A wallet from 0.1.11 stays.
+This listing is version 0.1.13. Umbrel uses that version to offer the update. A wallet from 0.1.12 stays.
 
 Umbrel opens the page on port **8473**. The program listens on port **4173** inside the app.
 
@@ -114,8 +114,8 @@ Each line ends in `OK` when that file matches. A partial download does not.
 
 | Program | SHA-256 |
 | --- | --- |
-| `bin/autarki-amd64` | `b72e326e5610b66be4a0e76f19647b36ad02e39fd80c404fde09c2c64b574a04` |
-| `bin/autarki-arm64` | `4a2cf899cda76f1c1a5145a5dc0338173b725917d3237e1f139deccdf696d751` |
+| `bin/autarki-amd64` | `1de0cee4e60048a54f6b620f727577d74231899b17dc5366e61995296267c1ed` |
+| `bin/autarki-arm64` | `0085d77e525d572f3b95f745edc9b0e173233aaf6966311f21c236062a389953` |
 
 ## First sale
 
