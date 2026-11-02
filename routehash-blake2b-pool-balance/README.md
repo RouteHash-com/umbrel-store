@@ -6,7 +6,7 @@ About once a minute it reads the pools that have published a size limit. When th
 
 Umbrel builds this app on the machine, from this app folder. It runs on an AMD or Intel Umbrel, on Umbrel Home, on Umbrel Pro, and on a Raspberry Pi, on umbrelOS 1.x and on umbrelOS 2.0. Umbrel Home and Umbrel Pro are Intel, so they build the amd64 image. A Raspberry Pi builds the arm64 image. The StartOS release has two files. `blake2b-pool-balance_x86_64.s9pk` is for an AMD or Intel server. `blake2b-pool-balance_aarch64.s9pk` is for a Raspberry Pi running StartOS. A Raspberry Pi running Umbrel installs this folder.
 
-On Umbrel the app id is `routehash-blake2b-pool-balance` and this listing is version **0.1.4**. It is the same app as 0.1.3, so an update keeps the saved chooser. The StartOS package id stays `blake2b-pool-balance`, and that package in the current release is still **0.1.0**. It is **beta** until a live Umbrel install is confirmed.
+On Umbrel the app id is `routehash-blake2b-pool-balance` and this listing is version **0.1.5**. It runs as user 1000:1000. An update from 0.1.4 keeps the saved chooser and hands that data to this user. The StartOS package id stays `blake2b-pool-balance`, and that package is **0.1.0:1**. It is **beta** until a live Umbrel install is confirmed.
 
 It sits beside the DATUM gateway you already run. It does not replace store id `routehash` or app id `routehash-gateway`. It does not install DATUM, it does not install Bitcoin Knots, and it does not listen for ASICs. Your ASICs stay on the miner port of the gateway you already use. Never put port 28915 on an ASIC.
 
@@ -157,7 +157,7 @@ The first start copies `data/chooser.json` into the app data directory only when
 
 ## StartOS
 
-Sideload the file that matches the machine from [v0.1.0](https://github.com/RouteHash-com/blake2b-pool-balance/releases/tag/v0.1.0). AMD and Intel use `blake2b-pool-balance_x86_64.s9pk`. A Raspberry Pi running StartOS uses `blake2b-pool-balance_aarch64.s9pk`. Package id `blake2b-pool-balance`. It does not replace `datum` or `routehash-gateway`. The service page there is also port 7156. The long StartOS description is the README in that repository.
+Sideload the file that matches the machine from [v0.1.0.1](https://github.com/RouteHash-com/blake2b-pool-balance/releases/tag/v0.1.0.1). AMD and Intel use `blake2b-pool-balance_x86_64.s9pk`. A Raspberry Pi running StartOS uses `blake2b-pool-balance_aarch64.s9pk`. On that service page, Upstream service and StartOS package open the GitHub repository. Marketing stays on the connect page. Package id `blake2b-pool-balance`. It does not replace `datum` or `routehash-gateway`. The service page there is also port 7156. The long StartOS description is the README in that repository.
 
 ## Packaging
 
