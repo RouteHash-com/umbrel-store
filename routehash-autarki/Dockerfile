@@ -1,4 +1,5 @@
-FROM debian:bookworm-slim
+# The wallet binary needs glibc 2.39. Bookworm ships 2.36 and exits before the page starts.
+FROM debian:trixie-slim
 
 # Umbrel builds this on the machine that installs the app.
 # BuildKit sets TARGETARCH to amd64 or arm64.
