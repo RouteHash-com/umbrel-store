@@ -6,7 +6,7 @@
 
 No platform. Just the sale.
 
-Autarki is the wallet and the Nostr shop on the Umbrel you already run. That Umbrel can be an AMD or Intel machine, an Umbrel Home, an Umbrel Pro, or a Raspberry Pi, on umbrelOS 1.x or umbrelOS 2.0. This listing is version 0.1.28. A wallet from 0.1.27 stays. The AMD and Intel program and the Raspberry Pi program were built on 15 November 2026. Lightning stays off on this community store. On-chain payment, the shop, and Nostr stay. The same 99 digits do not rebuild a wallet. This computer adds its own randomness. The 24 words are the only backup. A PC, Umbrel Home, and Umbrel Pro use the amd64 program. A Raspberry Pi uses the arm64 program. A merchant builds the order on the page. Use it as an in-person point of sale, or set the shop to Online and take the order over Nostr. The same page hires a listed rig, posts a classified, and an online order can be shipped. The words, the shop book, and the sale stay on that Umbrel.
+Autarki is the wallet and the Nostr shop on the Umbrel you already run. That Umbrel can be an AMD or Intel machine, an Umbrel Home, an Umbrel Pro, or a Raspberry Pi, on umbrelOS 1.x or umbrelOS 2.0. This listing is version 0.1.30. A wallet from 0.1.29 stays. The AMD and Intel program and the Raspberry Pi program were built on 17 November 2026. Lightning stays off on this community store. On-chain payment, the shop, and Nostr stay. The same 99 digits do not rebuild a wallet. This computer adds its own randomness. The 24 words are the only backup. A PC, Umbrel Home, and Umbrel Pro use the amd64 program. A Raspberry Pi uses the arm64 program. A merchant builds the order on the page. Use it as an in-person point of sale, or set the shop to Online and take the order over Nostr. The same page hires a listed rig, posts a classified, and an online order can be shipped. The words, the shop book, and the sale stay on that Umbrel.
 
 The name in the RouteHash app store is **Autarki - Wallet / Nostr Shop**.
 
@@ -18,7 +18,7 @@ This store is the RouteHash community store. It is not the official Umbrel App S
 
 ## What you get
 
-One page: Shop, Receive, Send, Balance, Ledger, Store, Mining, Classifieds, and Settings. Settings is the gear on the first row. Classifieds stays hidden until you turn on Enable Classifieds under Settings. Search sits to the left of the keyword. Post and Check for orders are icons on the same row as Show Ignored and View blocked. Opening Post hides the ads. A classified ad and a store listing use the same Nostr account. Each connected coin node gets a silent-payment code. The buyer pay card names the chain in the center. The Mining tab is on this page once this wallet is open. Paste the API token on Mining, or under Settings. Mining stays on its own tab. Hire a listed rig there, and the rewards come back to this wallet. After that account is saved, Balance lists Open Mining Invoices.
+One page: Shop, Receive, Send, Balance, Ledger, Store, Mining, Classifieds, and Settings. Settings is the gear on the first row. Classifieds stays on unless Enable Classifieds is turned off under Settings. Search sits to the left of the keyword. Post and Check for orders are icons on the same row as Show Ignored and View blocked. Opening Post hides the ads. A classified ad and a store listing use the same Nostr account. Each connected coin node gets a silent-payment code. The buyer pay card names the chain in the center. The Mining tab is on this page once this wallet is open. Paste the API token on Mining, or under Settings. Mining stays on its own tab. Hire a listed rig there, and the rewards come back to this wallet. After that account is saved, Balance lists Open Mining Invoices.
 
 The first screen creates the wallet. Write the 24 words on paper before you leave that screen. A password for this copy is optional. Leave both password fields blank and the 24 words are stored unencrypted on this device. A backup of this service is then the seed. Restore the 24 words is on that same screen. It shows the first XBT address and does not show the words again. A shorter phrase uses Import a BIP39 phrase. A native SegWit phrase can be imported on that same screen. After that import you can set a password, or leave the copy unlocked.
 
@@ -46,7 +46,7 @@ A name on a post or an order is the display name that person published, or their
 
 ## Classifieds
 
-Classifieds stays hidden until you turn on Enable Classifieds under Settings. A new wallet leaves it off. Turning it off hides the tab. A draft stays on this computer.
+Classifieds stays on unless Enable Classifieds is turned off under Settings. Turning it off hides the tab. A draft stays on this computer.
 
 The categories are Goods, Services, Jobs, Rentals, Giveaways, and Personals. Goods, a service, and a rental ask for a price. A job asks Offer or Hire. A giveaway and a personal do not ask for a price. An ad can carry up to four image addresses. A map link is an https address from OpenStreetMap, Google Maps, or Apple Maps. What is a map link? tells you to copy that address and paste it into Map. Use my location copies the shop's saved country, province or state, city, neighbourhood, and map link. It does not open that explanation.
 
