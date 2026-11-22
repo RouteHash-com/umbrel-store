@@ -6,7 +6,7 @@
 
 No platform. Just the sale.
 
-Autarki is the wallet and the Nostr shop on the Umbrel you already run. That Umbrel can be an AMD or Intel machine, an Umbrel Home, an Umbrel Pro, or a Raspberry Pi, on umbrelOS 1.x or umbrelOS 2.0. This listing is version 0.1.31. A wallet from 0.1.30 stays. The AMD and Intel program and the Raspberry Pi program were built on 19 November 2026. Lightning stays off on this community store. On-chain payment, the shop, and Nostr stay. The same 99 digits do not rebuild a wallet. This computer adds its own randomness. The 24 words are the only backup. A PC, Umbrel Home, and Umbrel Pro use the amd64 program. A Raspberry Pi uses the arm64 program. A merchant builds the order on the page. Use it as an in-person point of sale, or set the shop to Online and take the order over Nostr. The same page hires a listed rig, posts a classified, and an online order can be shipped. The words, the shop book, and the sale stay on that Umbrel.
+Autarki is the wallet and the Nostr shop on the Umbrel you already run. That Umbrel can be an AMD or Intel machine, an Umbrel Home, an Umbrel Pro, or a Raspberry Pi, on umbrelOS 1.x or umbrelOS 2.0. This listing is version 0.1.32. A wallet from 0.1.31 stays. The AMD and Intel program and the Raspberry Pi program were built on 21 November 2026. Save a copy keeps the shop book, classifieds, messages, contacts, and the other books this device holds. Bring a copy back puts those books back. The 24 words stay on this device. A Lightning paper brings back coins in that node's own wallet after the scan. An open Lightning channel is not in this file. The guide opens in pieces. Lightning stays off on this community store. On-chain payment, the shop, and Nostr stay. The same 99 digits do not rebuild a wallet. This computer adds its own randomness. The 24 words are the only backup. A PC, Umbrel Home, and Umbrel Pro use the amd64 program. A Raspberry Pi uses the arm64 program. A merchant builds the order on the page. Use it as an in-person point of sale, or set the shop to Online and take the order over Nostr. The same page hires a listed rig, posts a classified, and an online order can be shipped. The words, the shop book, and the sale stay on that Umbrel.
 
 The name in the RouteHash app store is **Autarki - Wallet / Nostr Shop**.
 
@@ -114,8 +114,8 @@ Each line ends in `OK` when that file matches. A partial download does not.
 
 | Program | SHA-256 |
 | --- | --- |
-| `bin/autarki-amd64` | `72adccdd831edd981bb4488ff963536d308cfc4bd987e77c1751b62406be828b` |
-| `bin/autarki-arm64` | `ebb05ef96f081aeabc7c2f585722b394a37a7fe86d10790df143f281d3ca7602` |
+| `bin/autarki-amd64` | `829c8f83272727d4417dc5b8122828a6ec7556e84efc2d8b4a8ae41209909779` |
+| `bin/autarki-arm64` | `557cc2300cedec7058a89e8ee4bdf913285c157b0e3427111da1096b9611b8f3` |
 
 ## First sale
 
